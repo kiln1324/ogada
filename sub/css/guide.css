@@ -1,0 +1,379 @@
+@charset "utf-8";
+
+
+#tit-tab li.on {
+    background-color: #312727;
+}
+
+#tit-tab li.on a {
+    color: #eee;
+    font-weight: normal;
+}
+
+#tit-tab li.on:hover a {
+    color: #312727;
+    font-weight: bold;
+}
+
+
+main {
+    background-image: url(../img/franchise/bg_tit-franguid.jpg);
+}
+
+section {
+    margin: 160px 0;
+}
+
+.tit-box .title {
+    float: left;
+}
+
+.tit-box .tit-des {
+    float: left;
+    margin-left: 24px;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+
+.process {
+    width: 100%;
+}
+
+.process .fran-step {
+    margin-top: 60px;
+    background: url(../img/franchise/bg_step.png) no-repeat;
+    background-position: center 15px;
+    
+    /*outline: 1px solid red;*/
+    display: none;
+}
+
+.process .fran-step ol {
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.process .fran-step ol li {
+    width: 33.33%;
+    height: 170px;
+}
+
+.process .fran-step ol li.top-line {
+    margin-right: -60px;
+}
+
+.process .fran-step ol li.second-line {
+    float: right;
+    margin-top: 80px;
+    margin-right: -60px
+}
+.process .fran-step ol li.third-line {
+    width: 30%;
+    margin-top: 80px;
+    margin-right: -60px;
+}
+
+.process .fran-step ol li.step7 {
+    margin-left: 18%;
+}
+
+.process .fran-step ol li:last-child {
+    width: 60px;
+    float: right;
+    margin-right: 0;
+}
+
+.process .fran-step ol li .ico-box {
+    width: 60px;
+    height: 60px;
+    
+    transition: all 0.6s;
+}
+
+
+.process .fran-step ol li:hover .ico-box {
+    transform: rotateY(360deg);
+}
+
+.process .fran-step ol li .ico-box img {
+    width: 100%;
+}
+.process .fran-step ol li .step-tit {
+    font-size: 20px;
+    margin-top: 8px;
+    line-height: 1.2;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.process .fran-step ol li .step-tit:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.process .fran-step ol li .step-tit b {
+    margin: 0 8px;
+}
+
+.process .fran-step ol li.tit-set .step-tit b {
+    display: block;
+    margin: 0 8px 24px;
+    float: left;
+}
+
+.process .fran-step ol li.tit-set .step-tit span {
+    display: block;
+    float: left;
+}
+
+.process .fran-step ol li p {
+    margin-top: 8px;
+    letter-spacing: -0.6px;
+    line-height: 1.4;
+    padding-left: 54px;
+}
+
+
+.model {
+    width: 100%;
+    margin-bottom: 140px;
+}
+
+.model .tit-box .tit-des {
+    line-height: 2;
+}
+.model .wrap {
+    width: 100%;
+    margin-top: 60px;
+    padding: 0 110px;
+    box-sizing: border-box;
+}
+.model .wrap .model-type {
+    float: left;
+    text-align: center;
+    width: 450px;
+    
+}
+
+.model .wrap .model-type:last-child {
+    margin-left: 80px;
+}
+
+.model .wrap .model-type .cafe-logo {
+    width: 100%;
+    height: 80px;
+}
+.model .wrap .model-type .cafe-logo img {
+    height: 100%;
+    display: inline-block;
+}
+.model .wrap .model-type .cafe-img {
+    width: 100%;
+}
+.model .wrap .model-type .cafe-img img {
+    width: 100%;
+}
+.model .wrap .model-type .type-des {
+    margin-top: 40px;
+    color: #666;
+}
+
+.model .wrap .model-type .type-des b {
+    font-family: 'Noto Serif KR', serif;
+    color: #333;
+}
+
+
+
+
+.interior {
+    width: 100%;
+}
+
+.interior .inner {
+    padding: 0 3%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.interior .inner:after {
+    content: "";
+    display: block;
+    width: 94%;
+    height: 1px;
+    background-color: #ebe3e0;
+    
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: -1;
+}
+
+.interior .tit-box {
+    width: 100%;
+}
+
+.interior .tit-box .sub-tit {
+    font-size: 24px;
+    font-weight: 500;
+    float: left;
+    background-color: #fff;
+}
+.interior .tit-box .sub-tit-des {
+    float: left;
+    line-height: 2;
+    background-color: #fff;
+    padding: 0 24px;
+}
+
+.interior .box-wrap {
+    margin-top: 60px;
+}
+.interior .box-wrap .left-box {
+    float: left;
+    width: 400px;
+}
+.interior .box-wrap .left-box img {
+    width: 100%;
+}
+
+.interior .box-wrap .right-box {
+    float: left;
+    margin: 20px 0 0 40px;
+}
+
+.interior .box-wrap .right-box .cafe-logo {
+    height: 50px;
+}
+
+.interior .box-wrap .right-box .cafe-logo img {
+    height: 100%;
+}
+
+.interior .box-wrap .right-box p {
+    margin-top: 20px;
+    line-height: 1.3;
+    color: #666;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: -0.4px;
+}
+
+
+
+
+.coast {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.coast .inner {
+    padding: 0 3%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.coast .inner:after {
+    content: "";
+    display: block;
+    width: 94%;
+    height: 1px;
+    background-color: #ebe3e0;
+    
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: -1;
+}
+
+.coast  .sub-tit {
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    background-color: #fff;
+    padding-right: 24px;
+}
+
+.coast table {
+    margin-top: 60px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.coast table caption {
+    text-align: left;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.coast table thead {
+    position: sticky;
+    top: 100px;
+}
+
+.coast table thead tr th {
+    background-color: #d2c6c6;
+    line-height: 3.6;
+    border: 2px solid #f4f1f1;
+}
+.coast table thead tr th:first-child {
+    border-left: none;
+    border-bottom: none;
+}
+.coast table thead tr th:last-child {
+    border-right: none;
+}
+
+.coast table thead tr:first-child th:first-child {
+    width: 26%;
+}
+
+.coast table thead tr:last-child th {
+    width: 12%;
+    border-bottom: none;
+}
+
+.coast table tbody tr:nth-child(2),
+.coast table tbody tr:nth-child(4),
+.coast table tbody tr:nth-child(7),
+.coast table tbody tr:nth-child(8) {
+    border-bottom: 4px double #d2c6c6;
+}
+
+.coast table tbody tr td {
+    padding: 16px;
+    letter-spacing: -0.4px;
+    border: 1px solid #d2c6c6;
+}
+
+.coast table tbody tr td:first-child {
+    border-left: none;
+}
+
+.coast table tbody tr td:first-child {
+    width: 10%;
+}
+
+.coast table tbody tr td:last-child {
+    border-right: none;
+}
+
+.coast table tfoot tr td {
+    text-align: left;
+    font-size: 14px;
+    line-height: 3;
+    color: #777;
+}
+
+
+.coast table tbody tr:hover td {
+    background-color: #f4f1f1;
+}
+
+
+
+
+
+

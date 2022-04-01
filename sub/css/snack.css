@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+main {
+    background-image: url(../img/menu/bg_tit-snack.jpg);
+}
+
+.bread {
+    background-color: #d9b38c;
+    background-image: url(../img/menu/badge_bread.png);
+}
+.ice {
+    background-color: #fefecd;
+    background-image: url(../img/menu/badge_ice.png);
+}
+.rice-cake {
+    background-color: #fff;
+    background-image: url(../img/menu/badge_rice-cake.png);
+}
+.snack {
+    background-color: #312727;
+    background-image: url(../img/menu/badge_snack.png);
+}
+.cake {
+    background-color: #fbd2d0;
+    background-image: url(../img/menu/badge_cake.png);
+}
+
+.sand {
+    background-color: #d9b38c;
+    background-image: url(../img/menu/badge_sand.png);
+}
+
+.salad {
+    background-color: #59b300;
+    background-image: url(../img/menu/badge_salad.png);
+}

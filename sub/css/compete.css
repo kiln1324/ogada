@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.location {
+    margin-top: 0;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 10;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.page .inner {
+    width: 1400px;
+    height: 100%;
+    position: relative;
+}
+
+
+#compete0 {
+    background-image: url(../img/franchise/bg_compete-1.jpg);
+}
+
+#compete1 {
+    background-image: url(../img/franchise/bg_compete-2.jpg);
+}
+
+#compete2 {
+    background-image: url(../img/franchise/bg_compete-3.jpg);
+}
+
+#compete3 {
+    background-image: url(../img/franchise/bg_compete-4.jpg);
+}
+
+#compete4 {
+    background-image: url(../img/franchise/bg_compete-5.jpg);
+}
+
+#compete5 {
+    background-image: url(../img/franchise/bg_compete-6.jpg);
+}
+
+#compete0 .txt-box,
+#compete2 .txt-box,
+#compete4 .txt-box {
+    left: 2%;
+}
+#compete1 .txt-box,
+#compete3 .txt-box,
+#compete5 .txt-box {
+    right: 2%;
+}
+
+
+.txt-box {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 500px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.txt-box .title {
+    margin-top: 110px;
+}
+
+.txt-box .title span {
+    color: #9c7263;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 24px;
+}
+
+.txt-box .tit-des {
+    font-weight: 300;
+    letter-spacing: -0.6px;
+}
+
+
+#compete5 .btn-box {
+    position: absolute;
+    left: 2%;
+    bottom: 25%;
+}
+#compete5 .btn-box a.btn {
+    padding: 16px 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    margin-bottom: 20px;
+    color: #312727;
+    font-weight: 600;
+    
+    transition: all 0.6s;
+}
+
+#compete5 .btn-box a.btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#footer {
+    height: 14%;
+}

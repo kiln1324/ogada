@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.main {
+    width: 100%;
+    margin-top: 80px;
+    
+    position: relative;
+}
+
+.main .visual-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .visual-box a {}
+.main .visual-box a img {
+    width: 100vw;
+}
+
+#pager {
+    position: absolute;
+    top: 1%;
+    
+    outline: 1px solid lime;
+}
+#pager .page-box {
+    letter-spacing: 1.5;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#pager .page-box span {
+    margin: 0 4px;
+}
+
+#pager .page-box span.page {}

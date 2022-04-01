@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+main {
+    background-image: url(../img/menu/bg_tit-drink.jpg);
+}
+
+.juice {
+    background-color: #ef9943;
+    background-image: url(../img/menu/badge_juice.png);
+    background-size: auto 26px;
+}
+
+.smoo {
+    background-color: #5c99d6;
+    background-image: url(../img/menu/badge_smoo.png);
+}
+.yo-smoo {
+    background-color: #5c99d6;
+    background-image: url(../img/menu/badge_yo-smoo.png);
+}
+.ade {
+    background-color: #efc443;
+    background-image: url(../img/menu/badge_ade.png);
+    background-size: 22px auto;
+}
+
+
+

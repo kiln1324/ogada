@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+main {
+    background-image: url(../img/news/bg_tit-event.jpg);
+    padding-top: 160px;
+}
+
+#board {
+    width: 100%;
+    margin: 120px 0;
+}
+
+#board .inner {
+    width: 1000px;
+}
+
+#board table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#board table tr th.num {
+    border-top-left-radius: 12px;
+}
+#board table tr th.date {
+    border-top-right-radius: 12px;
+}
+
+#board table tr th,
+#board table tr td {
+    padding: 20px 0;
+}
+
+#board table tr th {
+    background-color: #473939;
+    color: #eee;
+    font-weight: normal;
+}
+
+#board table tr:nth-child(2n+1) td {
+    background-color: #f4f1f1;
+}
+
+#board table tr td.num {
+    width: 8%;
+}
+
+#board table tr td.subject {
+    width: 80%;
+    text-align: left;
+    padding-left: 32px;
+    font-size: 18px;
+    padding: 0;
+}
+
+#board table tr td.subject a {
+    color: #333;
+    padding: 20px 0;
+}
+
+#board table tr td.subject:hover a {
+    text-decoration: underline;
+}
+
+#board table tr td.date {
+    width: 12%;
+    color: #999;
+    font-size: 14px;
+}
+
+
+
+#board .pager {
+    width: 100%;
+    margin-top: 30px;
+}
+#board .pager ul {
+    text-align: center;
+}
+#board .pager ul li {
+    float: none;
+    display: inline-block;
+}
+
+#board .pager ul li~li {
+    margin-left: 10px;
+}
+
+#board .pager ul li a {
+    color: #666;
+    font-weight: normal;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f4f1f1;
+    border-radius: 8px;
+}
+
+#board .pager ul li.on a {
+    background-color: #d2c6c6;
+    color: #473939;
+}
+
+#board .pager ul li:hover a {
+    background-color: #d2c6c6;
+    color: #312727;
+}

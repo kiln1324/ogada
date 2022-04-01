@@ -1,0 +1,79 @@
+@charset "uft-8";
+
+main {
+    background-image: url(../img/franchise/bg_tit-franguid.jpg);
+    padding-top: 160px;
+}
+
+
+
+.fnq-list {
+    margin: 120px 0;
+}
+
+.fnq-list .inner {
+    padding: 0 50px;
+    box-sizing: border-box;
+    
+    height: 700px;
+}
+.fnq-list .tit-box {}
+.fnq-list .tit-box .title {
+    text-transform: uppercase;
+}
+.fnq-list .tit-box .tit-des {}
+.fnq-list .list-box {
+    margin-top: 40px;
+}
+.fnq-list .list-box ul {
+    width: 100%;
+    border-top: 1.4px solid #d2c6c6;
+}
+.fnq-list .list-box ul li {
+    width: 100%;
+    position: relative;
+}
+
+.view-arrow {
+    width: 14px;
+    height: 14px;
+    border-left: 2px solid #312727;
+    border-bottom: 2px solid #312727;
+    position: absolute;
+    top: 18px;
+    right: 40px;
+    font-size: 0;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    transition: all 0.6s;
+}
+
+.view-arrow.on {
+    top: 24px;
+    transform: rotate(135deg);
+}
+
+.fnq-list .list-box ul li .q-box {
+    font-size: 18px;
+    padding: 16px 0;
+    padding-left: 40px;
+    /*border-top: 2px solid #d2c6c6;*/
+    border-bottom: 1.4px solid #d2c6c6;
+   /* background-image: url(../img/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: 20px;*/
+}
+
+.fnq-list .list-box ul li .q-box b {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.fnq-list .list-box ul li .a-box {
+    padding: 24px 60px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    background-color: #f4f1f1;
+}

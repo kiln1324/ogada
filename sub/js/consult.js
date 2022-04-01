@@ -1,0 +1,6 @@
+// consult.js
+
+
+$(function () {
+
+}); //jquery

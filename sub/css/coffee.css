@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+main {
+    background-image: url(../img/menu/bg_tit-coffee.jpg);
+}
+
+.esp {
+    background-image: url(../img/menu/badge_espresso.png);
+    background-size: 22px;
+}
+
+.barley {
+    background-color: #cc9900;
+    background-image: url(../img/menu/badge_barley.png);    
+}
+
+.milk {
+    background-color: #fff;
+    background-image: url(../img/menu/badge_milk.png);
+    background-size: 22px;
+}
+
+.intro {
+    width: 100%;
+}
+
+.intro .intro-box {
+    width: 100%;
+    margin-top: 80px;
+}
+.intro .intro-box .sub-tit {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 100;
+    
+}
+.intro .intro-box .sub-tit span {
+    display: block;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+}
+.intro .intro-box .coffee-step {
+    width: 100%;
+    margin-top: 40px;
+    height: 360px;
+    padding: 0 48px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background: url(../img/menu/coffee_intro1.png) no-repeat center top;
+    text-align: center;
+    
+    transform: rotateX(-90deg);
+    transition: all 1.6s;
+}
+.intro .intro-box .coffee-step ul {
+    width: 100%;
+    height: 100%;
+    background: url(../img/menu/coffee_intro2.png) no-repeat center top;
+    
+    transform: rotateX(90deg);
+    transition: all 0.8s;
+}
+.intro .intro-box .coffee-step ul li {
+    width: 20%;
+    
+}
+.intro .intro-box .coffee-step ul li .img-wrap {
+    width: 180px;
+    height: 180px;
+    background-color: #ebe3e0;
+    border-radius: 500px;
+    margin: 20px;
+    
+    transform: rotateY(90deg);
+    transition: all 0.6s;
+}
+.intro .intro-box .coffee-step ul li .img-wrap img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+.intro .intro-box .coffee-step ul li h4 {
+    margin-top: 40px;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 20px;
+}
+.intro .intro-box .coffee-step ul li .step-des {
+    margin-top: 8px;
+    letter-spacing: -0.6px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.intro .intro-box .intro-des {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.intro .intro-box .intro-des .left-box {
+    width: 600px;
+    height: 300px;
+    
+    
+    float: left;
+}
+.intro .intro-box .intro-des .left-box img {
+    width: 100%;
+}
+.intro .intro-box .intro-des .right-box {
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.intro .intro-box .intro-des .right-box ul li {
+    float: none;
+    margin-bottom: 24px;
+    line-height: 1.4;
+}
+
+.list .list-top .badgegrp .milk {
+    border: 2px solid #ebe3e0;
+    box-sizing: border-box;
+}
+
+.list .list-content ul li.coffee-point {
+    padding: 40px 0 0 40px;
+    height: 444px;
+    box-sizing: border-box;
+}
+li.coffee-point .graph {
+    width: 156px;
+    height: 156px;
+    
+    position: relative;
+    z-index: 1;
+}
+li.coffee-point .graph img {
+    width: 100%;
+}
+li.coffee-point .graph ul {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    z-index: -1;
+}
+li.coffee-point .graph ul li {
+    float: none;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0 50px 50px 0;
+    text-align: right;
+    padding-right: 16px;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    overflow: hidden;
+}
+
+li.coffee-point .graph ul li:nth-child(1) {
+    background-color: rgba(185, 157, 146,1);
+    margin-left: -28px;
+    margin-top: 8px;
+}
+li.coffee-point .graph ul li:nth-child(2) {
+    background-color: rgba(185, 157, 146,0.8);
+}
+li.coffee-point .graph ul li:nth-child(3) {
+    background-color: rgba(185, 157, 146,0.6);
+}
+li.coffee-point .graph ul li:nth-child(4) {
+    background-color: rgba(185, 157, 146,0.4);
+    margin-left: -24px;
+}
+
+li.coffee-point ul.taste {
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 24px;
+    line-height: 30px;
+    /*outline: 1px solid lime;*/
+}
+li.coffee-point ul.taste>li {
+    float: none;
+}
+li.coffee-point ul.taste>li span {
+    width: 80px;
+    display: block;
+    float: left;
+    color: #666;
+}
+li.coffee-point ul.taste>li ul.level li {
+    color: #b99d92;
+    font-size: 18px;
+}
+
+li.coffee-point ul.taste>li ul.level li~li {
+    margin-left: 8px;
+}
+
+
+
+
+
+

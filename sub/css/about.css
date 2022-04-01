@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/*
+font-family: 'Noto Serif SC', serif;
+font-family: 'Noto Serif KR', serif;
+*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.location {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    margin: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+
+
+section {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+}
+
+
+.sub-tit {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Noto Serif KR', serif;
+    color: #333;
+    line-height: 1.4;
+}
+
+.sub-txt {
+    margin-top: 16px;
+    line-height: 1.4;
+    color: #666;
+}
+
+
+.main {
+    background: url(../img/story/bg_about-tit.gif) no-repeat center 100px/cover;
+    background: url(../img/story/bg_about-tit.jpg) no-repeat center 100px/cover;
+
+    line-height: 1;
+    position: relative;
+}
+
+.main .container  {
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .box-wrap {
+    margin-top: 60px;
+    width: 537px;
+    height: 200px;
+}
+
+.main .box-wrap .box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(3, 3, 3, 0.5);
+    border-radius: 200px;
+    box-shadow: -6px 0 6px rgba(255, 255, 255, 0.1), -4px 6px 6px rgba(255, 255, 255, 0.1);
+    
+    position: relative;
+    opacity: 0;
+    top: -20px;
+}
+
+.main .box-wrap .box ~ .box {
+    margin-left: -32px;
+}
+
+.main .box-wrap .box h3 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 56px;
+    margin-top: 58px;
+}
+
+.main .box-wrap .box p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.contents {
+    position: relative;
+}
+
+.contents .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -48%);
+    overflow: hidden;
+
+    /*outline: 1px solid red;*/
+}
+
+.contents .contents-box {
+    width: 1020px;
+    letter-spacing: -0.6px;
+    height: 280px;
+    margin-top: 40px;
+    
+    position: relative;
+
+    /*outline: 1px solid lime;*/
+}
+
+.contents .contents-box .img-box {
+    height: 100%;
+}
+
+.contents .contents-box .img-box img {
+    height: 100%;
+}
+
+.contents .contents-box .txt-box {
+    float: left;
+}
+
+.contents .share {
+    margin-top: 80px;
+}
+
+.contents .share .img-box {
+    float: right;
+}
+
+.contents .tea-brand .img-box {
+    float: left;
+}
+
+.contents .share .txt-box {
+    margin-top: 160px;
+}
+
+.contents .tea-brand .txt-box {
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+
+.start {
+    text-align: center;
+    background: url(../img/story/bg_about1.jpg) no-repeat bottom;
+    background-size: auto 60%;
+}
+
+.start .txt-box {
+    padding-top: 10%;
+}
+
+.instead {
+    background: url(../img/story/bg_about2.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+.instead .txt-box {
+    position: relative;
+    top: 44%;
+    left: 60%;
+}
+
+.instead .txt-box .sub-tit {
+    color: #eee;
+    font-size: 28px;
+    display: none;
+}
+
+.instead .txt-box .sub-txt {
+    color: #ddd;
+    font-size: 18px;
+    display: none;
+}
+
+.open .img-box {
+    width: 100%;
+    overflow: hidden;
+}
+.open .img-box img {
+    width: 100%;
+    position: relative;
+}
+
+.open .txt-box {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto 0;
+    
+    position: relative;
+}
+
+.open .txt-box .gofind-btn {
+    padding: 0 60px;
+    line-height: 60px;
+    font-size: 18px;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.open .txt-box .gofind-btn span {
+    display: inline-block;
+    width: 0;
+    font-size: 24px;
+    line-height: 1;
+    transform: translateY(2px) translateX(0px);
+    color: #f4f1f1;
+    transition: all 0.6s;
+}
+
+.open .txt-box .gofind-btn:hover span {
+    width: 10px;
+    transform: translateY(2px) translateX(10px);
+}

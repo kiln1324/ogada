@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* 블렌딩티 */
+
+
+/*뱃지컬러*/
+.badge {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    font-size: 16px;
+}
+
+.kang {
+    background-color: #4d4d4d;
+}
+
+.ho {
+    background-color: #ddd;
+    color: #333;
+}
+
+.mi {
+    background-color: #f8afae;
+}
+
+.so {
+    background-color: #cc9900;
+}
+
+.an {
+    background-color: #339999;
+}
+
+main {
+    background-image: url(../img/menu/bg_tit-blend.jpg);
+}
+
+section {
+    width: 100%;
+}
+
+.intro {
+    margin-top: 140px;
+    text-align: center;
+    font-weight: 200;
+
+    position: relative;
+    cursor: default;
+}
+
+.intro:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #f4f1f1;
+
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: -80px;
+}
+
+.intro .sub-tit {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 100;
+    
+    opacity: 0;
+}
+
+.intro .sub-tit span {
+    display: block;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+}
+
+.intro .sub-des {
+    margin-top: 24px;
+    font-size: 18px;
+    
+    opacity: 0;
+}
+
+.intro .purpose {
+    width: 696px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.intro .purpose li {
+    opacity: 0;
+}
+
+.intro .purpose li ~ li {
+    margin-left: 24px;
+}
+
+.intro .purpose li h4 {
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.intro .purpose li h4 span {
+    display: block;
+    font-size: 32px;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 700;
+}
+
+.intro .purpose li p {
+    margin-top: 20px;
+    line-height: 1.4;
+    font-weight: normal;
+    color: #666;
+}

@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* 대메뉴 menu 리스트 공통 */
+
+section {
+    margin-bottom: 200px;
+}
+
+.badge {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 200px;
+    background-color: #312727;
+    background-repeat: no-repeat;
+    background-size: 24px auto;
+    background-position: center;
+    font-size: 0;
+}
+
+.list {
+    margin-top: 200px;
+}
+
+.list .list-top {
+    width: 100%;
+    border-bottom: 1px solid #ebe3e0;
+}
+
+.list .list-top .sub-tit {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
+    color: #554444;
+    text-transform: uppercase;
+    margin-left: 16px;
+
+    float: left;
+}
+
+.list .list-top .sub-tit span {
+    display: block;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Noto Serif KR', serif;
+    color: #312727;
+}
+
+.list .list-top .list-des {
+    float: left;
+    margin-left: 32px;
+    line-height: 40px;
+    padding-top: 12px;
+    font-size: 18px;
+    color: #666;
+}
+
+.list .list-top .badgegrp {
+    float: right;
+    padding: 14px 0;
+}
+
+.list .list-top .badgegrp ul li ~ li {
+    margin-left: 8px;
+}
+
+
+/* 메뉴리스트 ---------------------------------------------*/
+
+.list .list-content {
+    width: 100%;
+}
+
+.list .list-content > ul {
+    width: 100%;
+}
+
+.list .list-content > ul > li {
+    width: 376px;
+    margin-right: 36px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border: 2px solid #ebe3e0;
+
+    position: relative;
+    /* 메뉴 설명 기준*/
+}
+
+.list .list-content > ul > li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.list .list-content > ul > li.point {
+    overflow: hidden;
+    border: none;
+    height: 444px;
+}
+
+.list .list-content > ul > li.point:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 39, 39, 0.1);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.list .list-content > ul > li.point img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.list .list-content > ul > li.point img ~ img {
+    display: none;
+}
+
+
+.list .list-content > ul > li .img-box {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.list .list-content > ul > li .img-box img {
+    width: 100%;
+    display: block;
+}
+
+.list .list-content > ul > li .txt-box {
+    background-color: #ebe3e0;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.txt-box .badge {
+    float: left;
+}
+
+.txt-box .name {
+    float: left;
+    margin-left: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.txt-box .name p.ko-name {
+    display: inline-block;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.list .list-content > ul > li p.ko-name:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 8px 0;
+
+    position: absolute;
+    top: 14px;
+    left: -10px;
+    z-index: -1;
+    transition: all 0.6s;
+}
+
+.list .list-content > ul > li:hover p.ko-name:after {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.txt-box .menu-des {
+    width: 100%;
+    padding: 24px 24px;
+    box-sizing: border-box;
+    background-color: rgba(235, 227, 224, 0.8);
+    word-break: keep-all;
+    line-height: 1.5;
+
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+    display: none;
+
+    /*outline: 1px solid lime;*/
+}
+
+

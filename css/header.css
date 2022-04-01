@@ -1,0 +1,195 @@
+@charset "utf-8";
+/*
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;
+*/
+
+/*---------------------------------- header -----------*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255,255,255,0.9);
+    /*background-color: rgba(244, 241, 241,0.9);*/
+    /*border-bottom: 1px solid #ebe3e0;*/
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    
+    /*outline: 1px solid red;*/
+}
+
+header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ebe3e0;
+    
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+
+header .inner {
+    height: 100%;
+    position: relative;
+    
+    /*outline: 1px solid;*/
+}
+
+header .logo {
+    height: 80px;
+    padding: 10px;
+    float: left;
+}
+.logo a {
+    height: 100%;
+}
+.logo a img {
+    height: 100%;
+}
+
+
+/*---------------------------------- #gnb -----------*/
+
+header #gnb {
+    width: 720px;
+    height: 100%;
+    float: left;
+    padding: 0 50px;
+    text-align: center;
+    
+    /*outline: 1px solid lime;*/
+}
+#gnb>ul {
+}
+
+#gnb>ul>li {
+   width: 110px;
+}
+
+#gnb>ul>li:first-child {
+    width: 140px
+}
+#gnb>ul>li:last-child {
+    width: 140px
+}
+
+#gnb>ul>li>a {
+    height: 100%;
+    line-height: 100px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    
+    position: relative;
+    
+    /*outline: 1px solid red;*/
+}
+
+#gnb>ul>li>a:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 16px;
+    border-radius: 12px 0 12px 0;
+    background-color: #fbd2d0;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+    z-index: -1;
+}
+#gnb>ul>li:hover>a:after {
+    width: 60%;
+}
+
+
+#gnb>ul>li ul {
+    padding: 20px 0;
+    display: none;
+    
+}
+
+#gnb>ul>li ul li {
+    float: none;
+    line-height: 2;
+    /*outline: 1px solid red;*/
+}
+
+#gnb>ul>li ul li:hover {
+    text-decoration: underline;
+}
+
+#gnb>ul>li ul li a {
+    color: #333;
+    font-weight: 300;
+    letter-spacing: -0.6px;
+}
+
+header .lnb {
+    line-height: 40px;
+    font-size: 14px;
+    
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+header .lnb li {
+}
+
+header .lnb li~li {
+    margin-left: 12px;
+}
+
+header .lnb li a {
+    color: #666;
+}
+
+header .lnb li:hover a {
+    text-decoration: underline;
+}
+
+header .lnb li a img {
+    display: inline-block;
+    height: 24px;
+    vertical-align: text-bottom;
+    transform: translateY(2px);
+    margin-right: 8px;
+    
+    transition: all 0.4s;
+}
+
+header .lnb li:hover a img {
+    transform: translateY(-2px);
+    /*transform: scale(1.2);
+    transform-origin: top;*/
+}
+
+header .lnb li a.h-sns {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    
+    transition: all 0.5s;
+}
+
+header .lnb li a.h-sns:hover {
+    /*transform: translateY(-8px);*/
+    transform: scale(1.2);
+}
+
+header .lnb li a.insta {
+    background: url(../img/sns_instagram-pink.png) no-repeat center/cover;
+}
+
+header .lnb li a.youtube {
+    background: url(../img/sns_youtube-pink.png) no-repeat center/cover;
+}
+

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+main {
+    background-image: url(../img/menu/bg_tit-iceflackes2.jpg);
+}
+
+.bowl-ice {
+    background-image: url(../img/menu/badge_bowl.png);
+}
+
+.cup-ice {
+    background-image: url(../img/menu/badge_cup.png);
+    background-color: #ef9943;
+}

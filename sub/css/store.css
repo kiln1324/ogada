@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
+
+section {
+    width: 100%;
+}
+
+#store {
+    width: 100%;
+    height: 960px;
+    
+    position: relative;
+}
+#store .wrap {
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 2px solid #d2c6c6;
+    
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+#store .wrap .search {
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d2c6c6;
+}
+.search .title {
+    font-size: 20px;
+}
+
+.search form label {
+    position: relative;
+    display: block;
+    margin-top: 8px;
+}
+.search form label input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #d2c6c6;
+    text-indent: 16px;
+    padding: 4px 40px 4px 0;
+    border-radius: 50px;
+}
+.search form label .btn-search {
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+    background: url(../img/ico_search-w.png) no-repeat center/20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#store .wrap .store-list {
+    height: 482px;
+    overflow: auto;
+}
+.store-list ul {}
+.store-list ul li {
+    /*height: 120px;*/
+    margin: 6px;
+    padding: 16px 0;
+    float: none;
+    border-bottom: 1px solid #d2c6c6;
+}
+.store-list ul li .area {
+    width: 30px;
+    text-align: center;
+    padding: 4px 16px;
+    background-color: #ebe3e0;
+    display: inline-block;
+    vertical-align: text-top;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 80px;
+}
+.store-list ul li a {
+    width: 260px;
+    margin-left: 20px;
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
+}
+.store-list ul li a h3 {
+    margin-top: -4px;
+}
+.store-list ul li a address {
+    color: #999;
+    font-style: normal;
+    margin-top: 6px;
+}
+.store-list ul li a .tel-num {
+    margin-top: 8px;
+}
+
+
+.map {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

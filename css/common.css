@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.title span {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #666;
+}
+
+.tit-des {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 100;
+    letter-spacing: -0.4px;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+[class$=btn] {
+    border: 2px solid #d2c6c6;
+    background-color: #f4f1f1;
+    border-radius: 100px;
+    color: #312727;
+    font-weight: bold;
+    text-align: center;
+    /*transition: all 0.6s;*/
+}
+
+/*[class$=btn]:hover {
+    background-color: #312727;
+    color: #fff;
+    border: 2px solid #312727;
+}*/
+
+#toTop {
+    height: 0;
+    width: 1200px;
+    margin: 0 auto;
+
+    position: sticky;
+    bottom: 40px;
+}
+
+#toTop a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background: url(../img/arrow_up.png) no-repeat center/24px;
+    background-color: #312727;
+    
+    position: absolute;
+    bottom: 40px;
+    right: -100px;
+    display: none;
+}
+
+/*
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;
+*/

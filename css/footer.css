@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*----------------------------------- footer -------*/
+
+footer {
+    width: 100%;
+    background-color: #302726;
+    padding-bottom: 40px;
+    cursor: default;
+}
+
+footer .link {
+    line-height: 60px;
+}
+footer .link a {
+    display: inline-block;
+    color: #ddd;
+    font-size: 14px;
+}
+
+footer .link a:hover {
+    text-decoration: underline;
+}
+
+footer .link a ~ a {
+    margin-left: 16px;
+}
+
+
+footer .left-box {
+    width: 60%;
+    float: left;
+    color: #ddd;
+}
+
+.left-box .info-box {
+    font-size: 14px;
+}
+.left-box .info-box address {
+    font-style: normal;
+    display: inline-block;
+}
+.left-box .info-box span {
+    margin-left: 16px;
+    white-space: nowrap;
+    
+    position: relative;
+}
+
+.left-box .info-box span a {
+    color: #ddd;
+    display: inline;
+    text-decoration: underline;
+}
+
+.left-box .info-box span:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #aaa;
+    
+    position: absolute;
+    left: -8px;
+    top: 5px;
+}
+
+.left-box .copy {
+    margin-top: 11px;
+}
+
+footer .right-box {
+    float: right;
+    
+    /*outline: 2px solid blue;*/
+}
+
+.right-box .sns li {
+    width: 32px;
+}
+
+.right-box .sns li ~ li {
+    margin-left: 8px;
+}
+.right-box .sns li a {
+    width: 100%;
+}
+
+.right-box .sns li a img {
+    width: 100%;
+    display: block;
+    
+    opacity: 0.4;
+    transition: all 0.4s;
+}
+
+.right-box .sns li:hover img {
+    opacity: 1;
+}
+
+
+.right-box .footer-logo {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.right-box .footer-logo a {
+    width: 100%;
+}
+.right-box .footer-logo a img {
+    width: 80%;
+    display: inline-block;
+}
